@@ -950,11 +950,102 @@ footer .copyright-text {
   margin-bottom: 10px;
 }
 
-.text h4 {
-  font-size: 18px;
+h4 {
+  font-size: 15px;
   margin-bottom: 5px;
+  font-weight: 800;
+  color: #00285c;
+}
+
+h2 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #00285c;
 }
 
 .text p {
   font-size: 14px;
+}
+
+.github {
+  align-items: center;
+  color: #ffffff;
+  appearance: none;
+  background-color: #00285c;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  height: 35px;
+  justify-content: center;
+  letter-spacing: 0.25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 5px 10px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform, opacity;
+  z-index: 0;
+}
+
+.live {
+  align-items: center;
+  color: #00285c;
+  appearance: none;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  height: 35px;
+  justify-content: center;
+  letter-spacing: 0.25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 5px 18px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform, opacity;
+  z-index: 0;
+}
+
+.live:hover {
+  color: #ffffff;
+  background-color: #00285c;
+}
+
+.github:hover {
+  color: #00285c;
+  background-color: #ffffff;
+}
+
+.button-project {
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
